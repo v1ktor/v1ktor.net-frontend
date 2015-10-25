@@ -3,61 +3,24 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>Viktor Kalinin | Web-Developer</title>
-    <link rel="stylesheet" href="css/normalize.css"/>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,800italic,400,800|Changa+One|Oswald:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/style.css"/>
-    <link rel="stylesheet" href="css/responsive.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/scss/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <header>
-        <a href="index.html" id="logo">
-            <h1>Viktor Kalinin</h1>
-            <h2>Web-Developer</h2>
-        </a>
+    <header class="header">
         <nav>
-            <ul>
-                <li><a href="index.html" class="selected">Portfolio</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+            <ul class="menu">
+                <li class="menu__item"><a href="index.html" class="menu__link menu__link_selected">Home</a></li>
+                <li class="menu__item"><a href="portfolio.html" class="menu__link">Portfolio</a></li>
+                <li class="menu__item"><a href="about.html" class="menu__link">About</a></li>
+                <li class="menu__item"><a href="contact.html" class="menu__link">Contact</a></li>
             </ul>
         </nav>
     </header>
     <div id="wrapper">
         <section>
-            <ul id="gallery">
-                <li>
-                    <a href="img/wotpropaganda.jpg">
-                        <img src="img/wotpropaganda.jpg" alt="">
-                        <p>World Of Tanks poster for Golden Joystick Awards</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="img/_effects.jpg">
-                        <img src="img/_effects.jpg" alt="">
-                        <p>Memories of summer.</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="img/_effects2.jpg">
-                        <img src="img/_effects2.jpg" alt="">
-                        <p>Experimenting with graffiti effect in Photoshop.</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="img/wotpropaganda.jpg">
-                        <img src="img/wotpropaganda.jpg" alt="">
-                        <p>World Of Tanks poster for Golden Joystick Awards</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="img/wotpropaganda.jpg">
-                        <img src="img/wotpropaganda.jpg" alt="">
-                        <p>World Of Tanks poster for Golden Joystick Awards</p>
-                    </a>
-                </li>
-                <li></li>
-            </ul>
+            <h3>Home Page</h3>
         </section>
         <footer>
             <a href="https://twitter.com/v1_kalinin"><img src="img/twitter.png" alt="Twitter Logo" class="social-icon"></a>

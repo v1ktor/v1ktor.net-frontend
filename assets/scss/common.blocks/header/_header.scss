@@ -1,0 +1,27 @@
+.header {
+  margin: 0;
+  background-color: #252220;
+}
+
+@include bp(xsmall-up) {
+
+}
+
+@include bp(small-up) {
+  .header {
+    background-color: #3B6691;
+  }
+}
+
+@include bp(medium-up) {
+  .header {
+    background-color: #da293e;
+    border-bottom: 5px solid #161413;
+  }
+}
+
+@include bp(large-up) {
+  .header {
+    background-color: #ffff00;
+  }
+}

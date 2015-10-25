@@ -1,0 +1,31 @@
+.menu {
+  margin: 0;
+  padding: 5%;
+  text-align: center;
+}
+
+.menu__item {
+  list-style: none;
+  display: inline-block;
+  margin: 0 2%;
+  padding: 0;
+  font-family: $font-family;
+  font-size: 1em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.menu__link {
+  color: $header-link;
+  text-decoration: none;
+
+  &:hover {
+    color: $header-link-hover;
+    border-bottom: 1px solid $header-link-hover;
+  }
+}
+
+.menu__link_selected {
+  color: $header-link-hover;
+  border-bottom: 1px solid $header-link-hover;
+}
