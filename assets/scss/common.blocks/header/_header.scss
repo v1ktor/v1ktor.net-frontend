@@ -1,6 +1,6 @@
 .header {
   margin: 0;
-  background-color: #252220;
+  background-color: $header-background;
 }
 
 @include bp(xsmall-up) {
